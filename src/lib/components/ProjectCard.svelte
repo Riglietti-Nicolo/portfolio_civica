@@ -24,7 +24,7 @@
 
 <svelte:element
   this={tag}
-  href={project.url || undefined}
+  href={isExternalLink ? project.url : base + project.url || undefined}
   target={isExternalLink ? "_blank" : undefined}
   rel={isExternalLink ? "noopener noreferrer" : undefined}
   class="card"

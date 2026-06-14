@@ -169,7 +169,7 @@ function ProjectCard($$renderer, $$props) {
 		const isExternalLink = derived(() => project.url?.startsWith("http") ?? false);
 		const coverStyle = derived(() => project.cover ? `background-image: url('${base}${project.cover}'); background-size: cover; background-position: center;` : "");
 		element($$renderer, tag(), () => {
-			$$renderer.push(`${attr("href", project.url || void 0)}${attr("target", isExternalLink() ? "_blank" : void 0)}${attr("rel", isExternalLink() ? "noopener noreferrer" : void 0)} class="card svelte-oviq8z"`);
+			$$renderer.push(`${attr("href", isExternalLink() ? project.url : base + project.url || void 0)}${attr("target", isExternalLink() ? "_blank" : void 0)}${attr("rel", isExternalLink() ? "noopener noreferrer" : void 0)} class="card svelte-oviq8z"`);
 		}, () => {
 			$$renderer.push(`<div class="cover svelte-oviq8z"${attr_style(coverStyle())}>`);
 			if (!project.cover) {
