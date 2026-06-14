@@ -35,6 +35,19 @@
       "_dev.js"
     ]
   },
+  "_paths.js": {
+    "file": "chunks/paths.js",
+    "name": "paths",
+    "imports": [
+      "_environment.js",
+      "_internal.js",
+      "_routing.js"
+    ]
+  },
+  "_routing.js": {
+    "file": "chunks/routing.js",
+    "name": "routing"
+  },
   "_shared.js": {
     "file": "chunks/shared.js",
     "name": "shared",
@@ -68,9 +81,10 @@
     "isEntry": true,
     "imports": [
       "_environment.js",
-      "_internal.js",
+      "_paths.js",
       "_exports.js",
       "_shared.js",
+      "_routing.js",
       "_dev.js"
     ]
   },
@@ -85,6 +99,7 @@
       "_utils.js",
       "_exports.js",
       "_shared.js",
+      "_routing.js",
       "_dev.js"
     ]
   },
@@ -103,6 +118,8 @@
     "src": "src/routes/+page.svelte",
     "isEntry": true,
     "imports": [
+      "_environment.js",
+      "_paths.js",
       "_dev.js"
     ],
     "css": [

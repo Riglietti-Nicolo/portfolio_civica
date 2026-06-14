@@ -1,4 +1,5 @@
-<script>
+<script> 
+  import { base } from '$app/paths';
   let { project, index } = $props();
 
   const typeLabel = {
@@ -18,7 +19,7 @@
 
   const tag = $derived(project.url ? "a" : "div");
   const isExternalLink = $derived(project.url?.startsWith("http") ?? false);
-  const coverStyle = $derived(project.cover ? `background-image: url('${project.cover}'); background-size: cover; background-position: center;` : '');
+  const coverStyle = $derived(project.cover ? `background-image: url('${base}${project.cover}'); background-size: cover; background-position: center;` : '');
 </script>
 
 <svelte:element

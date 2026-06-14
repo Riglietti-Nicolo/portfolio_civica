@@ -181,7 +181,7 @@ async function tick() {}
 async function settled() {}
 //#endregion
 //#region \0virtual:__sveltekit/environment
-var version = "1779097833655";
+var version = "1781446714122";
 var prerendering = false;
 function set_building() {}
 function set_prerendering() {

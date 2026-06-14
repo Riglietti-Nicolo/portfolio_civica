@@ -10,7 +10,7 @@ return {
 	assets: new Set(["'NDRANGHETA.pdf",".nojekyll","Anatomy_of_Atrocity.pptx.pdf","Sessantotto.pdf","The_Cold_Ledger.pptx.pdf","covers/image.png","covers/image10.png","covers/image11.png","covers/image2.png","covers/image3.png","covers/image4.png","covers/image5.png","covers/image6.png","covers/image7.png","covers/image8.png","covers/image9.png","la_costituzione.pdf","la_prigione_domestica.pdf","presentazione_amish.pdf","robots.txt"]),
 	mimeTypes: {".pdf":"application/pdf",".png":"image/png",".txt":"text/plain"},
 	_: {
-		client: {start:"_app/immutable/entry/start.CRCwjcAn.js",app:"_app/immutable/entry/app.BWAMyu7H.js",imports:["_app/immutable/entry/start.CRCwjcAn.js","_app/immutable/chunks/BVUAGs0C.js","_app/immutable/chunks/sw6JzCOi.js","_app/immutable/entry/app.BWAMyu7H.js","_app/immutable/chunks/sw6JzCOi.js","_app/immutable/chunks/Dj6f-nJM.js","_app/immutable/chunks/DEDqjojZ.js"],stylesheets:[],fonts:[],uses_env_dynamic_public:false},
+		client: {start:"_app/immutable/entry/start.axhIi5CC.js",app:"_app/immutable/entry/app.D0yDOtNp.js",imports:["_app/immutable/entry/start.axhIi5CC.js","_app/immutable/chunks/GHDmcT7e.js","_app/immutable/chunks/sw6JzCOi.js","_app/immutable/entry/app.D0yDOtNp.js","_app/immutable/chunks/sw6JzCOi.js","_app/immutable/chunks/Dj6f-nJM.js","_app/immutable/chunks/DEDqjojZ.js"],stylesheets:[],fonts:[],uses_env_dynamic_public:false},
 		nodes: [
 			__memo(() => import('./nodes/0.js')),
 			__memo(() => import('./nodes/1.js')),

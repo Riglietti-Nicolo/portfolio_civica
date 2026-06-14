@@ -1,4 +1,6 @@
+import { m as base } from "../../chunks/environment.js";
 import { R as attr, a as element, i as derived, n as attr_style, o as ensure_array_like, s as head, z as escape_html } from "../../chunks/dev.js";
+import "../../chunks/paths.js";
 //#region src/lib/components/Nav.svelte
 function Nav($$renderer) {
 	$$renderer.push(`<nav class="nav svelte-1h32yp1"><div class="container svelte-1h32yp1"><a href="#top" class="logo svelte-1h32yp1"><span class="logo-box svelte-1h32yp1">NR</span> <span class="name svelte-1h32yp1">Nicolò Riglietti</span></a> <div class="links svelte-1h32yp1"><a href="#progetti" class="svelte-1h32yp1">Progetti</a> <a href="#about" class="svelte-1h32yp1">Chi sono</a></div></div></nav>`);
@@ -165,7 +167,7 @@ function ProjectCard($$renderer, $$props) {
 		};
 		const tag = derived(() => project.url ? "a" : "div");
 		const isExternalLink = derived(() => project.url?.startsWith("http") ?? false);
-		const coverStyle = derived(() => project.cover ? `background-image: url('${project.cover}'); background-size: cover; background-position: center;` : "");
+		const coverStyle = derived(() => project.cover ? `background-image: url('${base}${project.cover}'); background-size: cover; background-position: center;` : "");
 		element($$renderer, tag(), () => {
 			$$renderer.push(`${attr("href", project.url || void 0)}${attr("target", isExternalLink() ? "_blank" : void 0)}${attr("rel", isExternalLink() ? "noopener noreferrer" : void 0)} class="card svelte-oviq8z"`);
 		}, () => {

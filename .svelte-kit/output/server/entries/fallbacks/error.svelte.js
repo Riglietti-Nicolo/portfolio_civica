@@ -1,10 +1,10 @@
 import { a as index_server_exports } from "../../chunks/environment.js";
 import { v as noop } from "../../chunks/shared.js";
 import "../../chunks/exports.js";
+import "../../chunks/routing.js";
 import { E as writable, J as noop$1, Q as getContext, z as escape_html } from "../../chunks/dev.js";
-import "../../chunks/internal.js";
+import "../../chunks/paths.js";
 import "@sveltejs/kit/internal";
-import "@sveltejs/kit/internal/server";
 var PRELOAD_PRIORITIES = {
 	tap: 1,
 	hover: 2,
