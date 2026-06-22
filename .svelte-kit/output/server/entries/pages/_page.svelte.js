@@ -145,6 +145,15 @@ var projects = [
 		topic: "Legalità",
 		url: "/presentazione_amish.pdf",
 		schoolYear: "4"
+	},
+	{
+		id: "13",
+		title: "Incontro con Roberto Saviano",
+		description: "Incontro con Roberto Saviano a partire dal libro \"L'amore mio non muore\": riflessione sul coraggio civile, la narrativa come strumento di denuncia e il prezzo personale della lotta alla criminalità.",
+		type: "",
+		year: "2026",
+		topic: "Legalità",
+		schoolYear: "5"
 	}
 ];
 //#endregion

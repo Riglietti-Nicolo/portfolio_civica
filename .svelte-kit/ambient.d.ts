@@ -66,8 +66,8 @@ declare module '$env/static/private' {
 	export const EDITOR: string;
 	export const XDG_SEAT: string;
 	export const PWD: string;
-	export const XDG_SESSION_DESKTOP: string;
 	export const LOGNAME: string;
+	export const XDG_SESSION_DESKTOP: string;
 	export const QT_QPA_PLATFORMTHEME: string;
 	export const XDG_SESSION_TYPE: string;
 	export const npm_config_init_module: string;
@@ -96,8 +96,8 @@ declare module '$env/static/private' {
 	export const VSCODE_GIT_ASKPASS_EXTRA_ARGS: string;
 	export const npm_config_npm_version: string;
 	export const XDG_SESSION_CLASS: string;
-	export const TERMINFO: string;
 	export const TERM: string;
+	export const TERMINFO: string;
 	export const npm_package_name: string;
 	export const ZSH: string;
 	export const VSCODE_NONCE: string;
@@ -253,8 +253,8 @@ declare module '$env/dynamic/private' {
 		EDITOR: string;
 		XDG_SEAT: string;
 		PWD: string;
-		XDG_SESSION_DESKTOP: string;
 		LOGNAME: string;
+		XDG_SESSION_DESKTOP: string;
 		QT_QPA_PLATFORMTHEME: string;
 		XDG_SESSION_TYPE: string;
 		npm_config_init_module: string;
@@ -283,8 +283,8 @@ declare module '$env/dynamic/private' {
 		VSCODE_GIT_ASKPASS_EXTRA_ARGS: string;
 		npm_config_npm_version: string;
 		XDG_SESSION_CLASS: string;
-		TERMINFO: string;
 		TERM: string;
+		TERMINFO: string;
 		npm_package_name: string;
 		ZSH: string;
 		VSCODE_NONCE: string;
